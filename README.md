@@ -1,4 +1,4 @@
-# 🌱 **ReWear - Community Clothing Exchange**
+xx# 🌱 **ReWear - Community Clothing Exchange**
 
 ## ♻️ A Sustainable Way to Share and Reuse Clothes
 
@@ -9,17 +9,21 @@ ReWear is a web-based platform that enables users to exchange unused clothing th
 ## 🖼️ Screenshots
 
 ### 🔐 Sign Up
-<img src="https://github.com/user-attachments/assets/da16688e-78a1-48d5-9d46-c817cfbb35de" width="700"/>
+<img width="940" height="449" alt="image" src="https://github.com/user-attachments/assets/0fded9dd-e91f-4705-8ed8-e67e5c5d2c0b" />
+
 
 ### 🔑 Log In Dashboard
-<img src="https://github.com/user-attachments/assets/e2052406-ebc3-4bef-8e16-78b08149b039" width="700"/>
+<img width="940" height="441" alt="image" src="https://github.com/user-attachments/assets/2835024b-2a76-4efc-a2c9-486cb01720fe" />
+
 
 ### 👕 Browse Items
-<img src="https://github.com/user-attachments/assets/e41d7ff4-01a6-4550-a5c5-69b71e7ba740" width="700"/>
-<img src="https://github.com/user-attachments/assets/5e24686f-d345-4d9d-a708-8f3cf99d6956" width="700"/>
+<img width="940" height="451" alt="image" src="https://github.com/user-attachments/assets/6d920948-ba27-46b6-840a-22046a55239e" />
+<img width="940" height="448" alt="image" src="https://github.com/user-attachments/assets/104b3f55-e10e-4400-be4b-ffb04ad35e76" />
+
 
 ### ℹ️ About Us
-<img src="https://github.com/user-attachments/assets/46956faf-8934-4e9b-afd2-c218cd2bf041" width="700"/>
+<img width="940" height="451" alt="image" src="https://github.com/user-attachments/assets/ab341bd5-83a7-4efb-af46-0338d9d9000b" />
+
 
 ### 📊 Dashboard After Login
 <img src="https://github.com/user-attachments/assets/d9a28de2-b1f0-4b5f-af62-b7f334cf146e" width="700"/>
