@@ -1,0 +1,332 @@
+/* Login Page Custom Styles - Sustainable Fashion Theme */
+
+.login-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(76, 175, 80, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 152, 0, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(129, 199, 132, 0.2) 0%, transparent 50%);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-20px) rotate(1deg);
+  }
+  66% {
+    transform: translateY(10px) rotate(-1deg);
+  }
+}
+
+.login-card {
+  position: relative;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(76, 175, 80, 0.2),
+    0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(76, 175, 80, 0.8), transparent);
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.login-title {
+  background: linear-gradient(45deg, #4CAF50, #81C784, #FF9800);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.login-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.login-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.login-button:hover::before {
+  left: 100%;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 25px rgba(76, 175, 80, 0.3),
+    0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  transition: all 0.3s ease;
+}
+
+.input-field:focus-within {
+  transform: translateY(-2px);
+}
+
+.input-field .MuiOutlinedInput-root {
+  transition: all 0.3s ease;
+}
+
+.input-field .MuiOutlinedInput-root:hover {
+  transform: translateY(-1px);
+}
+
+.input-field .MuiOutlinedInput-root.Mui-focused {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+/* Floating particles animation */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  animation: float-particle 8s infinite linear;
+}
+
+.particle:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 8s;
+  background: rgba(76, 175, 80, 0.4);
+}
+
+.particle:nth-child(2) {
+  left: 20%;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  background: rgba(255, 152, 0, 0.4);
+}
+
+.particle:nth-child(3) {
+  left: 30%;
+  animation-delay: 4s;
+  animation-duration: 12s;
+  background: rgba(129, 199, 132, 0.4);
+}
+
+.particle:nth-child(4) {
+  left: 40%;
+  animation-delay: 6s;
+  animation-duration: 9s;
+  background: rgba(76, 175, 80, 0.4);
+}
+
+.particle:nth-child(5) {
+  left: 50%;
+  animation-delay: 1s;
+  animation-duration: 11s;
+  background: rgba(255, 152, 0, 0.4);
+}
+
+.particle:nth-child(6) {
+  left: 60%;
+  animation-delay: 3s;
+  animation-duration: 7s;
+  background: rgba(129, 199, 132, 0.4);
+}
+
+.particle:nth-child(7) {
+  left: 70%;
+  animation-delay: 5s;
+  animation-duration: 13s;
+  background: rgba(76, 175, 80, 0.4);
+}
+
+.particle:nth-child(8) {
+  left: 80%;
+  animation-delay: 7s;
+  animation-duration: 8s;
+  background: rgba(255, 152, 0, 0.4);
+}
+
+.particle:nth-child(9) {
+  left: 90%;
+  animation-delay: 0.5s;
+  animation-duration: 10s;
+  background: rgba(129, 199, 132, 0.4);
+}
+
+@keyframes float-particle {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .login-card {
+    margin: 1rem;
+    border-radius: 16px;
+  }
+  
+  .login-title {
+    font-size: 2rem !important;
+  }
+}
+
+/* Loading animation for button */
+.loading-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error animation */
+.error-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+/* Success animation */
+.success-bounce {
+  animation: bounce 0.6s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Eco-friendly theme enhancements */
+.login-card .MuiCardContent-root {
+  position: relative;
+}
+
+.login-card .MuiCardContent-root::after {
+  content: '🌱';
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  font-size: 24px;
+  opacity: 0.1;
+  animation: eco-float 3s ease-in-out infinite;
+}
+
+@keyframes eco-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(5deg);
+  }
+}
+
+/* Sustainable color palette */
+.login-container {
+  --sustainable-green: #4CAF50;
+  --sustainable-green-light: #81C784;
+  --sustainable-green-dark: #388E3C;
+  --sustainable-orange: #FF9800;
+  --sustainable-orange-light: #FFB74D;
+  --sustainable-orange-dark: #F57C00;
+}
+
+/* Enhanced focus states for accessibility */
+.input-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--sustainable-green);
+}
+
+.input-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--sustainable-green-light);
+} 
