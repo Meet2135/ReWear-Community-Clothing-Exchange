@@ -1,4 +1,4 @@
-xx# 🌱 **ReWear - Community Clothing Exchange**
+🌱 **ReWear - Community Clothing Exchange**
 
 ## ♻️ A Sustainable Way to Share and Reuse Clothes
 
